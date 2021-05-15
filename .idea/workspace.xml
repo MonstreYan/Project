@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bf82991b-d8f0-44d6-b157-166bdad93265" name="默认变更列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/User/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home/User/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +56,35 @@
       <workItem from="1620872998782" duration="618000" />
       <workItem from="1620874315795" duration="854000" />
       <workItem from="1620907191204" duration="3101000" />
+      <workItem from="1620914471492" duration="2949000" />
+      <workItem from="1620919838514" duration="1200000" />
+      <workItem from="1620992827870" duration="693000" />
+      <workItem from="1620993720742" duration="2846000" />
+      <workItem from="1621050712758" duration="16000" />
+      <workItem from="1621050840586" duration="7922000" />
+      <workItem from="1621082137922" duration="583000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="941" height="524" key="#com.intellij.structuralsearch.plugin.ui.StructuralReplaceDialog" timestamp="1621062049437">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="941" height="524" key="#com.intellij.structuralsearch.plugin.ui.StructuralReplaceDialog/0.0.1536.824@0.0.1536.824" timestamp="1621062049437" />
+    <state x="297" y="239" width="941" height="347" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog" timestamp="1621062049438">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="297" y="239" width="941" height="347" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1621062049438" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1621050726435">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1621050726435" />
+    <state x="468" y="13" width="600" height="798" key="find.popup" timestamp="1621062065897">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="468" y="13" width="600" height="798" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1621062065897" />
   </component>
 </project>
