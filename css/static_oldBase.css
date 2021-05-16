@@ -1,0 +1,64 @@
+/*
+@charset "utf-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, 
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym, 
+address, big, cite, code, del, dfn, em, font, img, ins, 
+kbd, q, i, samp, small, strike, sub, sup, tt, 
+var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+input, textarea, select, button,option { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    font-weight: normal; 
+    font-style: normal; 	
+    font-family: "Microsoft YaHei"; 
+    font-size: 12px;	
+    color: #333;
+    vertical-align: baseline; 
+}*/
+body{	
+	font-size: 12px;
+	color: #333;
+	font-family: "Microsoft YaHei";
+	word-wrap:break-word;
+}
+:focus {
+    outline: 0;
+} 
+a{
+	font-size: 12px;
+	color: #333;
+    text-decoration:none;
+} 
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+} 
+th, td {
+    text-align: left;
+    font-weight: normal;
+} 
+img, iframe {
+    border: none;
+    text-decoration:none;
+} 
+iframe{
+	display:block;
+}
+img {
+	border-style: none;
+}
+ol, ul, li {
+    list-style: none;
+}
+b{font-weight:normal}
+/*浮动相关*/
+.fl{float:left;}
+.fr{float:right;}
+
+.clear{clear:both;visibility:hidden; display: block; font-size:0; line-height:0;}
+.clearfix:after {visibility:hidden; display:block; font-size:0; content: " "; clear:both; height:0;}
+.clearfix{*zoom:1;} 
+

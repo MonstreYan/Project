@@ -291,9 +291,9 @@ select.placeholder{
 	color: #fff;
 	font-size: 14px;
 }
-.fixed-kefu-window .phone-zk b,
-	float: left;
-	font-weight: normal;
+.fixed-kefu-window .phone-zk b{
+	float:left;
+	font-weight:normal;
 }
 .fixed-kefu-window .phone-zk em{
 	width: 40px;
@@ -304,40 +304,40 @@ select.placeholder{
     float: left;
 }
 .fixed-kefu-window ul li.kefu i{
-     background: url(../img/kefu/v3/sqzx.png) no-repeat center;
+     background: url(images/static_img_sqzx.png) no-repeat center;
 }
 .fixed-kefu-window ul li.shfw i{
 	background: url(../img/kefu/v3/shfw.png) no-repeat center;
 }
 .fixed-kefu-window ul li.phone i{
-     background: url(../img/kefu/v2/phone-01.png) no-repeat center;
+     background: url(images/static_img_phone-01.png) no-repeat center;
 }
 .fixed-kefu-window ul li.liuyan i{
      background: url(../img/kefu/v2/liuyan-01.png) no-repeat center;
 }
 .fixed-kefu-window ul li.back-top i{
-     background: url(../img/kefu/v2/back-top-01.png) no-repeat center;
+     background: url(images/static_img_back-top-01.png) no-repeat center;
 }
 .fixed-kefu-window ul li.xiadan i{
-     background: url(../img/kefu/v2/xiadan.png) no-repeat center;
+     background: url(images\static_img_xiadan.png) no-repeat center;
 }
 .fixed-kefu-window ul li.kefu:hover i{
-     background: url(../img/kefu/v3/sqzx.png) no-repeat center;
+     background: url(images/static_img_sqzx.png) no-repeat center;
 }
 .fixed-kefu-window ul li.shfw:hover i{
 	background: url(../img/kefu/v3/shfw.png) no-repeat center;
 }
 .fixed-kefu-window ul li.phone:hover i{
-     background: url(../img/kefu/v2/phone-01.png) no-repeat center;
+     background: url(images/static_img_phone-01.png) no-repeat center;
 }
 .fixed-kefu-window ul li.liuyan:hover i{
      background: url(../img/kefu/v2/liuyan-02.png) no-repeat center;
 }
 .fixed-kefu-window ul li.back-top:hover i{
-     background: url(../img/kefu/v2/back-top-01.png) no-repeat center;
+     background: url(images/static_img_back-top-01.png) no-repeat center;
 }
 .fixed-kefu-window ul li.xiadan:hover i{
-     background: url(../img/kefu/v2/xiadan.png) no-repeat center;
+     background: url(images/static_img_xiadan.png) no-repeat center;
 }
 
 .fixed-kefu-window .liuyan-pane{
