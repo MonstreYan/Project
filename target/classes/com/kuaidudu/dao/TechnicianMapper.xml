@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kuaidudu.dao.TechnicianMapper">
+  <resultMap id="BaseResultMap" type="com.kuaidudu.bean.Technician">
+    <id column="technician_id" jdbcType="INTEGER" property="technicianId" />
+    <result column="technician_name" jdbcType="VARCHAR" property="technicianName" />
+    <result column="technician_age" jdbcType="INTEGER" property="technicianAge" />
+    <result column="technician_sex" jdbcType="CHAR" property="technicianSex" />
+    <result column="technician_phone" jdbcType="CHAR" property="technicianPhone" />
+    <result column="id" jdbcType="CHAR" property="id" />
+    <result column="technician_addr" jdbcType="VARCHAR" property="technicianAddr" />
+    <result column="technician_skill" jdbcType="VARCHAR" property="technicianSkill" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.kuaidudu.bean.Technician">
+    <result column="technician_photo" jdbcType="LONGVARBINARY" property="technicianPhoto" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    technician_id, technician_name, technician_age, technician_sex, technician_phone, 
+    id, technician_addr, technician_skill
+  </sql>
+  <sql id="Blob_Column_List">
+    technician_photo
+  </sql>
+  <select id="selectByExampleWithBLOBs" parameterType="com.kuaidudu.bean.TechnicianExample" resultMap="ResultMapWithBLOBs">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from technician
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByExample" parameterType="com.kuaidudu.bean.TechnicianExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from technician
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from technician
+    where technician_id = #{technicianId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from technician
+    where technician_id = #{technicianId,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.kuaidudu.bean.TechnicianExample">
+    delete from technician
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.kuaidudu.bean.Technician">
+    insert into technician (technician_id, technician_name, technician_age, 
+      technician_sex, technician_phone, id, 
+      technician_addr, technician_skill, technician_photo
+      )
+    values (#{technicianId,jdbcType=INTEGER}, #{technicianName,jdbcType=VARCHAR}, #{technicianAge,jdbcType=INTEGER}, 
+      #{technicianSex,jdbcType=CHAR}, #{technicianPhone,jdbcType=CHAR}, #{id,jdbcType=CHAR}, 
+      #{technicianAddr,jdbcType=VARCHAR}, #{technicianSkill,jdbcType=VARCHAR}, #{technicianPhoto,jdbcType=LONGVARBINARY}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.kuaidudu.bean.Technician">
+    insert into technician
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="technicianId != null">
+        technician_id,
+      </if>
+      <if test="technicianName != null">
+        technician_name,
+      </if>
+      <if test="technicianAge != null">
+        technician_age,
+      </if>
+      <if test="technicianSex != null">
+        technician_sex,
+      </if>
+      <if test="technicianPhone != null">
+        technician_phone,
+      </if>
+      <if test="id != null">
+        id,
+      </if>
+      <if test="technicianAddr != null">
+        technician_addr,
+      </if>
+      <if test="technicianSkill != null">
+        technician_skill,
+      </if>
+      <if test="technicianPhoto != null">
+        technician_photo,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="technicianId != null">
+        #{technicianId,jdbcType=INTEGER},
+      </if>
+      <if test="technicianName != null">
+        #{technicianName,jdbcType=VARCHAR},
+      </if>
+      <if test="technicianAge != null">
+        #{technicianAge,jdbcType=INTEGER},
+      </if>
+      <if test="technicianSex != null">
+        #{technicianSex,jdbcType=CHAR},
+      </if>
+      <if test="technicianPhone != null">
+        #{technicianPhone,jdbcType=CHAR},
+      </if>
+      <if test="id != null">
+        #{id,jdbcType=CHAR},
+      </if>
+      <if test="technicianAddr != null">
+        #{technicianAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="technicianSkill != null">
+        #{technicianSkill,jdbcType=VARCHAR},
+      </if>
+      <if test="technicianPhoto != null">
+        #{technicianPhoto,jdbcType=LONGVARBINARY},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.kuaidudu.bean.TechnicianExample" resultType="java.lang.Long">
+    select count(*) from technician
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update technician
+    <set>
+      <if test="record.technicianId != null">
+        technician_id = #{record.technicianId,jdbcType=INTEGER},
+      </if>
+      <if test="record.technicianName != null">
+        technician_name = #{record.technicianName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.technicianAge != null">
+        technician_age = #{record.technicianAge,jdbcType=INTEGER},
+      </if>
+      <if test="record.technicianSex != null">
+        technician_sex = #{record.technicianSex,jdbcType=CHAR},
+      </if>
+      <if test="record.technicianPhone != null">
+        technician_phone = #{record.technicianPhone,jdbcType=CHAR},
+      </if>
+      <if test="record.id != null">
+        id = #{record.id,jdbcType=CHAR},
+      </if>
+      <if test="record.technicianAddr != null">
+        technician_addr = #{record.technicianAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="record.technicianSkill != null">
+        technician_skill = #{record.technicianSkill,jdbcType=VARCHAR},
+      </if>
+      <if test="record.technicianPhoto != null">
+        technician_photo = #{record.technicianPhoto,jdbcType=LONGVARBINARY},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExampleWithBLOBs" parameterType="map">
+    update technician
+    set technician_id = #{record.technicianId,jdbcType=INTEGER},
+      technician_name = #{record.technicianName,jdbcType=VARCHAR},
+      technician_age = #{record.technicianAge,jdbcType=INTEGER},
+      technician_sex = #{record.technicianSex,jdbcType=CHAR},
+      technician_phone = #{record.technicianPhone,jdbcType=CHAR},
+      id = #{record.id,jdbcType=CHAR},
+      technician_addr = #{record.technicianAddr,jdbcType=VARCHAR},
+      technician_skill = #{record.technicianSkill,jdbcType=VARCHAR},
+      technician_photo = #{record.technicianPhoto,jdbcType=LONGVARBINARY}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update technician
+    set technician_id = #{record.technicianId,jdbcType=INTEGER},
+      technician_name = #{record.technicianName,jdbcType=VARCHAR},
+      technician_age = #{record.technicianAge,jdbcType=INTEGER},
+      technician_sex = #{record.technicianSex,jdbcType=CHAR},
+      technician_phone = #{record.technicianPhone,jdbcType=CHAR},
+      id = #{record.id,jdbcType=CHAR},
+      technician_addr = #{record.technicianAddr,jdbcType=VARCHAR},
+      technician_skill = #{record.technicianSkill,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.kuaidudu.bean.Technician">
+    update technician
+    <set>
+      <if test="technicianName != null">
+        technician_name = #{technicianName,jdbcType=VARCHAR},
+      </if>
+      <if test="technicianAge != null">
+        technician_age = #{technicianAge,jdbcType=INTEGER},
+      </if>
+      <if test="technicianSex != null">
+        technician_sex = #{technicianSex,jdbcType=CHAR},
+      </if>
+      <if test="technicianPhone != null">
+        technician_phone = #{technicianPhone,jdbcType=CHAR},
+      </if>
+      <if test="id != null">
+        id = #{id,jdbcType=CHAR},
+      </if>
+      <if test="technicianAddr != null">
+        technician_addr = #{technicianAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="technicianSkill != null">
+        technician_skill = #{technicianSkill,jdbcType=VARCHAR},
+      </if>
+      <if test="technicianPhoto != null">
+        technician_photo = #{technicianPhoto,jdbcType=LONGVARBINARY},
+      </if>
+    </set>
+    where technician_id = #{technicianId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.kuaidudu.bean.Technician">
+    update technician
+    set technician_name = #{technicianName,jdbcType=VARCHAR},
+      technician_age = #{technicianAge,jdbcType=INTEGER},
+      technician_sex = #{technicianSex,jdbcType=CHAR},
+      technician_phone = #{technicianPhone,jdbcType=CHAR},
+      id = #{id,jdbcType=CHAR},
+      technician_addr = #{technicianAddr,jdbcType=VARCHAR},
+      technician_skill = #{technicianSkill,jdbcType=VARCHAR},
+      technician_photo = #{technicianPhoto,jdbcType=LONGVARBINARY}
+    where technician_id = #{technicianId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.kuaidudu.bean.Technician">
+    update technician
+    set technician_name = #{technicianName,jdbcType=VARCHAR},
+      technician_age = #{technicianAge,jdbcType=INTEGER},
+      technician_sex = #{technicianSex,jdbcType=CHAR},
+      technician_phone = #{technicianPhone,jdbcType=CHAR},
+      id = #{id,jdbcType=CHAR},
+      technician_addr = #{technicianAddr,jdbcType=VARCHAR},
+      technician_skill = #{technicianSkill,jdbcType=VARCHAR}
+    where technician_id = #{technicianId,jdbcType=INTEGER}
+  </update>
+</mapper>
