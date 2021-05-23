@@ -291,14 +291,12 @@ body {
   vertical-align: bottom;
   margin-right: 5px;
 }
-.mnews .mnews-left .tab .tab-bd .box .list .des .time .t-txt {
 
-}
 .mnews .mnews-left .tab .tab-bd .box .list .des .time .t-txt .icon-txt {
   background: url(../../img/news/t-txt.png) no-repeat;
   width: 14px;
   height: 14px;
-  display: inline-block;.
+  display: inline-block;
   vertical-align: bottom;
   margin-right: 5px;
   position: relative;
