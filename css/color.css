@@ -45,8 +45,6 @@ span.blete-highlight-text{
 }
 
 .blete-blurb-round-icon:hover .blete-icon>img{
-	/*background-color: #ffd84d;*/
-	/*box-shadow: 0px 0px 30px rgba(255, 226, 0, 0.6);*/
 	transform: scale(1.1);
 }
 .blete-blurb-icon-left-square {
@@ -67,11 +65,6 @@ span.blete-highlight-text{
 .blete-blurb-icon-left-square:hover .blete-blurb-text h3:after{
 	background-color: #ffd84d;
 }
-
-/*.blete-main-menu .navbar-nav li a:hover,
-.blete-main-menu .navbar-nav li.active a{
-    color: #ffd84d;
-}*/
 
 .blete-slider .sp-selected-button {
   background-color: #ffd84d;

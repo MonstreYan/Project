@@ -19,34 +19,25 @@ p {
 	margin-top: 100px;
 }
 
-#tabs,#tabs2,#tabs3,#tabs4,#tabs5 {
-	/*width: 500px;*/
+#tabs1,#tabs2,#tabs3,#tabs4,#tabs5,#tabs6 {
 	margin: 0 auto;
 	margin-bottom: 40px;
 }
 
-#tabs li,#tabs2 li,#tabs3 li,#tabs4 li,#tabs5 li {
+#tabs1 li,#tabs2 li,#tabs3 li,#tabs4 li,#tabs5 li,#tabs6 li {
 	float: left;
 	margin-right: 2px;
 }
 
-#tabs li a,#tabs2 li a,#tabs3 li a,#tabs4 li a,#tabs5 li a {
+#tabs1 li a,#tabs2 li a,#tabs3 li a,#tabs4 li a,#tabs5 li a,#tabs6 li a {
 	display: block;
 	padding: 17px 30px;
-	/*background: #ffd84d;*/
 	text-decoration: none;
 	color: #222;
 	font-size: 16px;
 }
-/*
-#tabs li a:hover,#tabs2 li a:hover,#tabs3 li a:hover,#tabs4 li a:hover,#tabs5 li a:hover {
-	font-size: 20px;
-	font-weight: 700;
-	line-height: 20px;
-}*/
 
 #tabs_container {
-	/*padding: 40px;*/
 	overflow: hidden;
 	position: relative;
 	border-top: 1px solid #eee;
@@ -62,6 +53,7 @@ p {
 	-o-transition: all .3s ease-in-out;
 	-ms-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
+	
 
 	-webkit-transition-delay: .3s;
 	-moz-transition-delay: .3s;
@@ -109,12 +101,11 @@ p {
 
 .tabulous_active {
 	background: white !important;
-	/*color: #655c89 !important;*/
 	color: #000000;
 	font-weight: 600;
 }
 .tab_li_active{
-	border-bottom: 3px solid #ffd84d;
+	border-bottom: 3px solid rgb(7,195,249);
 }
 .tabulousclear {
 	display: block;
@@ -139,7 +130,6 @@ html {
 }
 .tabs_itemContainer img{
 	width: 400px;
-	/*height: 220px;*/
 	border-radius: 10px;
 }
 .tabs_itemContainer .tabs_itemInfo{
@@ -162,7 +152,7 @@ html {
 .itemDetail_btn{
 	width: 120px;
 	height: 40px;
-	background-color:#ffd84d ;
+	background-color: rgb(7,195,249);
 	text-align: center;
 	line-height: 40px;
 	border-radius: 30px;

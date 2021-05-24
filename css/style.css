@@ -28,7 +28,7 @@ ul{
   margin-bottom: 0;
 }
 .navbar-brand img{
-	max-width: 60%;
+	max-width: 50%;
 }
 
 header.blete-page-header{
@@ -301,9 +301,9 @@ a:active{
 	        transition: all .35s linear;
 }
 
-.blete-blurb-round-icon:hover .blete-icon{
-	/*border: 1px solid rgba(0,0,0,0);*/
-}
+/* .blete-blurb-round-icon:hover .blete-icon{
+	/*border: 1px solid rgba(0,0,0,0);
+} */
 
 .blete-blurb-round-icon:hover .blete-icon i{
 	color: #ffffff;
@@ -394,11 +394,6 @@ a:active{
 	     -o-transition: all .3s linear;
 	        transition: all .3s linear;
 }
-
-.blete-blurb-icon-left-square .blete-blurb-text p{
-
-}
-
 
 /* ------ Section Header Style ------ */
 .blete-section-wrapper{
@@ -601,7 +596,7 @@ header.blete-page-header .blete-main-menu.minified{
 
 .blete-main-slides .blete-img-overlay{
 	position: absolute;
-	background: url(../images/img-header/pattern.png)repeat, rgba(40,41,46,0.25);
+	/* background: url(../images/img-header/pattern.png)repeat, rgba(40,41,46,0.25); */
 	width: 100%;
 	height: 100%;
 	top: 0;
@@ -738,9 +733,6 @@ header.blete-page-header .blete-main-menu.minified{
 
 
 /* ----- Skill Style ----- */
-.blete-our-skills{
-
-}
 
 .blete-our-skills .chart{
 	position: relative;
@@ -788,9 +780,6 @@ header.blete-page-header .blete-main-menu.minified{
 
 
 /* ------ Featured Work Style ------- */
-.blete-section-work {
-	/*background-color: #D3D7D7*/
-}
 .blete-portfolio-work-item{
 	height: 280px;
 	position: relative;
@@ -1051,9 +1040,6 @@ header.blete-page-header .blete-main-menu.minified{
 	        transform: translateX(400%);
 }
 
-.blete-portfolio-details .blete-portfolio-meta-btn ul li.blete-lighbox{
-
-}
 
 .blete-portfolio-item:hover .blete-portfolio-details .blete-portfolio-meta-btn ul li{
 	opacity: 1;
@@ -1659,7 +1645,6 @@ footer ul li a i{
 	position:relative;
 	overflow:hidden;
 	border:solid 1px #e5e5e5;
-	/*border-bottom:solid 2px;*/
 }
 
 .dark .box-fx .inner{

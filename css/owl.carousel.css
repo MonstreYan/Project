@@ -60,7 +60,7 @@
 
 /* fix */
 .owl-carousel  .owl-wrapper,
-.owl-carousel  .owl-item{
+.owl-carousel  .owl-item {
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility:    hidden;
 	-ms-backface-visibility:     hidden;

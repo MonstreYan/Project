@@ -18,11 +18,6 @@ ZoomPic.prototype =
 		this._doPrev = function () {return _this.doPrev.apply(_this)};
 		this._doNext = function () {return _this.doNext.apply(_this)};
 		this.options = [
-			/*{width:476, height:210, top:40, left:0, zIndex:1},
-			{width:426, height:250, top:20, left:50, zIndex:2},
-			{width:654, height:290, top:0, left:150, zIndex:3},
-			{width:426, height:250, top:20, left:480, zIndex:2},
-			{width:476, height:210, top:40, left:476, zIndex:1},*/
 			{width:500, height:272, top:40, left:0, zIndex:1},
 			{width:500, height:312, top:20, left:120, zIndex:2},
 			{width:500, height:352, top:0, left:240, zIndex:3},
@@ -98,14 +93,6 @@ ZoomPic.prototype =
 					{
 						_this.doMove(_this.aSort[_this.iCenter].getElementsByTagName("img")[0], {opacity:100}, function ()
 						{
-							// _this.aSort[_this.iCenter].onmouseover = function ()
-							// {
-							// 	_this.doMove(this.getElementsByTagName("div")[0], {bottom:0})
-							// };
-							// _this.aSort[_this.iCenter].onmouseout = function ()
-							// {
-							// 	_this.doMove(this.getElementsByTagName("div")[0], {bottom:-100})
-							// }
 						})
 					})
 				});

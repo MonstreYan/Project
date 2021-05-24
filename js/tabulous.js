@@ -5,8 +5,6 @@
 			effect: 'slideLeft'
 		};
 
-	// $('<style>body { background-color: red; color: white; }</style>').appendTo('head');
-
 	function Plugin(element, options) {
 		this.element = element;
 		this.$elem = $(this.element);

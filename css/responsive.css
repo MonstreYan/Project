@@ -52,7 +52,7 @@
 
   .mzus-member-details {
     display: inline-block;
-    float: left;
+    /* float: left; */
     width: 60%;
   }
 
@@ -121,7 +121,7 @@
 
   .mzus-member-details {
     display: inline-block;
-    float: left;
+    /* float: left; */
     width: 60%;
   }
   .mzus-skills-wrapper{
