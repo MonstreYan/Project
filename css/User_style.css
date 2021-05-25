@@ -498,7 +498,7 @@ body em {
   left: 0;
   color: #fff;
   text-align: center;
-  background: url("../images/about-mask-bg_03.png");
+  /* background: url("../images/about-mask-bg_03.png"); */
   width: 100%;
   line-height: 30px;
   -webkit-border-radius: 0 0 8px 8px;

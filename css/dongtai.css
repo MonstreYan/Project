@@ -153,7 +153,7 @@ body {
   white-space: nowrap;
   -webkit-transition: all 0.6s ease-in-out;
   -moz-transition: all 0.6s ease-in-out;
-  -o-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
   -ms-transition: all 0.6s ease-in-out;
   opacity: 0.7;
 }
@@ -173,7 +173,7 @@ body {
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
-.mnews .mnews-left .tab {}
+
 .mnews .mnews-left .tab .tab-hd {
   height: 40px;
   border-bottom: 1px solid #e5e5e5;
@@ -196,9 +196,7 @@ body {
   font-weight: 700;
   border-bottom: 3px solid #ffd84d;
 }
-.mnews .mnews-left .tab .tab-bd {
 
-}
 .mnews .mnews-left .tab .tab-bd .box {
   display: none;
   overflow: hidden;
