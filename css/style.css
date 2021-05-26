@@ -282,7 +282,7 @@ a:active{
 	margin-bottom: 30px;
 	/*border: 1px solid #dadada;*/
 	-webkit-border-radius: 50%;
-		moz-border-radius: 50%;
+		-moz-border-radius: 50%;
 		 -o-border-radius: 50%;
 		 	border-radius: 50%;
 }
@@ -301,9 +301,6 @@ a:active{
 	        transition: all .35s linear;
 }
 
-/* .blete-blurb-round-icon:hover .blete-icon{
-	/*border: 1px solid rgba(0,0,0,0);
-} */
 
 .blete-blurb-round-icon:hover .blete-icon i{
 	color: #ffffff;
@@ -355,12 +352,6 @@ a:active{
 .blete-blurb-icon-left-square.blete-square-dark .blete-icon{
 	background-color: #444;
 }
-
-/*.blete-blurb-icon-left-square .blete-icon i{*/
-	/*line-height: 70px;*/
-	/*color: #ffffff;*/
-	/*font-size: 36px;*/
-/*}*/
 
 .blete-blurb-icon-left-square .blete-blurb-text{
 	float: left;
@@ -534,7 +525,7 @@ a:active{
         -ms-transition: all .35s;
          -o-transition: all .35s;
             transition: all .35s;
-    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 header.blete-page-header .blete-main-menu{
@@ -596,7 +587,6 @@ header.blete-page-header .blete-main-menu.minified{
 
 .blete-main-slides .blete-img-overlay{
 	position: absolute;
-	/* background: url(../images/img-header/pattern.png)repeat, rgba(40,41,46,0.25); */
 	width: 100%;
 	height: 100%;
 	top: 0;

@@ -1,0 +1,105 @@
+.activity-scene-box {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: none;
+  }
+  .activity-scene-box.show,
+  .activity-entry-trigger.show {
+    display: block;
+  }
+  .activity-scene-box:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .activity-scene-box .box-main {
+    position: relative;
+  }
+  .activity-scene-box .box-main .bg {
+    width: 100%;
+    width: 100%;
+    z-index: 200;
+  }
+  .activity-scene-box .box-main .bg img {
+    width: 100%;
+  }
+  .activity-scene-box .box-main .ticket-card {
+    position: absolute;
+    top: 38%;
+    left: 18.6%;
+    width: 67%;
+    height: 24.2%;
+    text-align: center;
+  }
+  .activity-scene-box .box-main .ticket-card p {
+    color: #fff;
+    font-size: 0.85rem;
+    margin: 8% 0 4% 0;
+  }
+  .activity-scene-box .box-main .ticket-card .activity-entry {
+    display: inline-block;
+    color: #f7e30a;
+    border: 1px solid #f7e30a;
+    font-size: 0.7rem;
+    height: 1.7rem;
+    line-height: 1.7rem;
+    padding: 0 1rem;
+    border-radius: 0.85rem;
+    text-decoration: none;
+  }
+  .activity-scene-box .box-main .ticket-card .close {
+    position: absolute;
+    top: -1.6rem;
+    right: -1.6rem;
+    display: inline-block;
+    width: 1.3rem;
+    height: 1.3rem;
+    background: #353331;
+    border: 2px solid #fff;
+    border-radius: 50%;
+  }
+  .activity-scene-box .box-main .ticket-card .close:before,
+  .activity-scene-box .box-main .ticket-card .close:after {
+    content: '';
+    display: inline-block;
+    width: 0.85rem;
+    height: 2px;
+    background: #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0.6rem;
+    left: 0.25rem;
+  }
+  .activity-scene-box .box-main .ticket-card .close:after {
+    transform: rotate(135deg);
+  }
+  .activity-entry-trigger {
+    position: fixed;
+    right: 15px;
+    bottom: 190px;
+    display: none;
+    z-index: 1001;
+    display: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    opacity: 0.7;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    color: white;
+    background: black;
+    border: 1px solid white;
+    font-size: 22px;
+    text-decoration: none!important;
+  }
+  iframe.video_iframe {
+      width: 100% !important;
+  }

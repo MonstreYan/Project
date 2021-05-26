@@ -1,7 +1,6 @@
 @charset "utf-8";
 
 body {
-  /*background-color: #f5f5f5;*/
   margin: 0!important;
 }
 
@@ -19,7 +18,6 @@ body {
 #introduce {
   background-color: #fff;
   margin: 0 auto;
-  /*position: relative;*/
   border-radius: 10px;
 }
 
@@ -33,7 +31,7 @@ body {
 
 #navs ul li {
   float: left;
-  width: 16.666666%;
+  width: 50%;
   height: 60px;
   line-height: 60px;
   background-color: #f0f2f5;
@@ -94,13 +92,6 @@ body {
   text-align: center;
 }
 
-/*#aboutlb .lb-current .lists:nth-child(2) {
-  width: 122px;
-  padding: 0 95px;
-  border-left: 1px solid #e5e5e5;
-  border-right: 1px solid #e5e5e5;
-}*/
-
 #aboutlb .lb-current .lists .t-icon {
   width: 43px;
   height: 44px;
@@ -137,10 +128,14 @@ body {
   padding: 45px 0 60px;
 }
 
-#event h2 {
-  font-size: 32px;
+#event h1 {
+  font-size: 50px;
   text-align: center;
   font-weight: normal;
+}
+
+#event h2 {
+  font-size: 20px;
 }
 
 #event .history dl {
@@ -319,7 +314,7 @@ body {
     display: inline-block;
     width: 60px;
     height: 60px;
-    background: url(../../img/about/leftarrow.png) no-repeat;
+    /* background: url(../../img/about/leftarrow.png) no-repeat; */
     vertical-align: middle;
     margin-left: 5px;
     position: absolute;
@@ -332,7 +327,7 @@ body {
     display: inline-block;
     width: 60px;
     height: 60px;
-    background: url(../../img/about/rightarrow.png) no-repeat;
+    /* background: url(../../img/about/rightarrow.png) no-repeat; */
     vertical-align: middle;
     margin-right: 5px;
     position: absolute;
@@ -557,9 +552,7 @@ overflow: hidden;
 .iw_poi_content>p {
   font-size: 14px;
 }
-/*.blete-main-menu{*/
-/*	background-color: white!important;*/
-/*}*/
+
 .leader_container{
 	padding-left: 100px;
 	padding-right: 100px;
@@ -590,9 +583,7 @@ overflow: hidden;
 	border-radius: 50%;
 }
 .leader_rightpart{
-	/*width: 70%;*/
 	width: 1000px;
-	/*line-height: 2.5rem;*/
 	margin-left: 10px;
 	color: #666;
 }

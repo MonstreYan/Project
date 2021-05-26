@@ -1,0 +1,1060 @@
+/*
+  Icon Font: fontcustom
+*/
+
+@font-face {
+    font-family: "fontcustom";
+    src: url("./fontcustom_214d6363b4cf5b0febf435ed98e97c86.eot");
+    src: url("./fontcustom_214d6363b4cf5b0febf435ed98e97c86.eot?#iefix") format("embedded-opentype"),
+         url("./fontcustom_214d6363b4cf5b0febf435ed98e97c86.woff2") format("woff2"),
+         url("./fontcustom_214d6363b4cf5b0febf435ed98e97c86.woff") format("woff"),
+         url("./fontcustom_214d6363b4cf5b0febf435ed98e97c86.ttf") format("truetype"),
+         url("./fontcustom_214d6363b4cf5b0febf435ed98e97c86.svg#fontcustom") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: "fontcustom";
+      src: url("./fontcustom_214d6363b4cf5b0febf435ed98e97c86.svg#fontcustom") format("svg");
+    }
+  }
+  
+  [data-icon]:before { content: attr(data-icon); }
+  
+  [data-icon]:before,
+  .icon-API:before,
+  .icon-accessories-tie:before,
+  .icon-accessories-umbrella-1:before,
+  .icon-accessories-winter-gloves:before,
+  .icon-accounting-calculator:before,
+  .icon-accounting-calculator-2:before,
+  .icon-add-link:before,
+  .icon-advertising-megaphone:before,
+  .icon-airport:before,
+  .icon-airport-road:before,
+  .icon-alarm-bell:before,
+  .icon-alarm28:before,
+  .icon-alert:before,
+  .icon-ambulance-car:before,
+  .icon-application:before,
+  .icon-appreciation:before,
+  .icon-archive:before,
+  .icon-archive-drawer:before,
+  .icon-arrow-right:before,
+  .icon-article:before,
+  .icon-auth:before,
+  .icon-award-medal-1:before,
+  .icon-award-trophy-star-1:before,
+  .icon-baby-boy:before,
+  .icon-baby-care-body:before,
+  .icon-baby-care-bottle:before,
+  .icon-baby-care-trolley:before,
+  .icon-back:before,
+  .icon-back2:before,
+  .icon-bag-handle:before,
+  .icon-baggage:before,
+  .icon-baggage-1:before,
+  .icon-baggage-plane:before,
+  .icon-balloon:before,
+  .icon-bananas1:before,
+  .icon-basketball:before,
+  .icon-batch:before,
+  .icon-batch-create-qrcode-help:before,
+  .icon-beer-mug:before,
+  .icon-bicycle:before,
+  .icon-bid:before,
+  .icon-big39:before,
+  .icon-black-mobile:before,
+  .icon-blackberry3:before,
+  .icon-body-care-mask:before,
+  .icon-book:before,
+  .icon-book-close-bookmark-1:before,
+  .icon-book-open-text:before,
+  .icon-book-star:before,
+  .icon-book2:before,
+  .icon-booking:before,
+  .icon-booking-member:before,
+  .icon-books8:before,
+  .icon-brand:before,
+  .icon-breakfast-cereal:before,
+  .icon-broadcast:before,
+  .icon-bulb:before,
+  .icon-bus-station:before,
+  .icon-cable-car:before,
+  .icon-calendar:before,
+  .icon-calendar70:before,
+  .icon-camera:before,
+  .icon-cancel:before,
+  .icon-cap-3:before,
+  .icon-car:before,
+  .icon-car-retro-1:before,
+  .icon-card2:before,
+  .icon-cash-payment-bills:before,
+  .icon-charcoal:before,
+  .icon-chat:before,
+  .icon-chat-system:before,
+  .icon-chats:before,
+  .icon-check:before,
+  .icon-check-badge:before,
+  .icon-check-circle:before,
+  .icon-check-payment-sign:before,
+  .icon-check-success:before,
+  .icon-close:before,
+  .icon-close-thin:before,
+  .icon-clothes-design-button:before,
+  .icon-cocktail-martini:before,
+  .icon-cocktail7:before,
+  .icon-code-append:before,
+  .icon-code-select:before,
+  .icon-codebox-code:before,
+  .icon-codebox-redpack:before,
+  .icon-codebox-score:before,
+  .icon-coffee:before,
+  .icon-coffee-straw:before,
+  .icon-coffee26:before,
+  .icon-cog-1:before,
+  .icon-comp:before,
+  .icon-compass-dark:before,
+  .icon-conversation:before,
+  .icon-conversation-chat-2:before,
+  .icon-convert:before,
+  .icon-cooking15:before,
+  .icon-cooperation:before,
+  .icon-count:before,
+  .icon-counts:before,
+  .icon-coupon:before,
+  .icon-coupon-consumed:before,
+  .icon-coupon-expired:before,
+  .icon-coupon-gift:before,
+  .icon-coupon2:before,
+  .icon-covered16:before,
+  .icon-credit-card:before,
+  .icon-crown:before,
+  .icon-crypto-currency-bitcoin-circle:before,
+  .icon-cupcake:before,
+  .icon-currency-yuan-circle:before,
+  .icon-customer:before,
+  .icon-customers:before,
+  .icon-cutlery6:before,
+  .icon-data:before,
+  .icon-data-store:before,
+  .icon-dealer:before,
+  .icon-define-score:before,
+  .icon-delete:before,
+  .icon-dentistry-tooth-brush:before,
+  .icon-description:before,
+  .icon-design-file-pyramid:before,
+  .icon-design-file-text-image:before,
+  .icon-design-tool-stamp:before,
+  .icon-details:before,
+  .icon-diet-scale:before,
+  .icon-diet-waist-1:before,
+  .icon-download:before,
+  .icon-download-pic:before,
+  .icon-download16:before,
+  .icon-drawer:before,
+  .icon-dress-1:before,
+  .icon-drink24:before,
+  .icon-dripcrm:before,
+  .icon-drone:before,
+  .icon-edit:before,
+  .icon-edit2:before,
+  .icon-edit3:before,
+  .icon-educative-toys-alphabet:before,
+  .icon-educative-toys-house:before,
+  .icon-educative-toys-maths:before,
+  .icon-error-status:before,
+  .icon-excel:before,
+  .icon-expired:before,
+  .icon-explain:before,
+  .icon-explain2:before,
+  .icon-export:before,
+  .icon-exsise:before,
+  .icon-face:before,
+  .icon-face-id-1:before,
+  .icon-family-umbrella-protect:before,
+  .icon-fan:before,
+  .icon-fan-contact:before,
+  .icon-fast-food-burger:before,
+  .icon-fast-food-french-fries:before,
+  .icon-fast-redpack:before,
+  .icon-favourites:before,
+  .icon-festival:before,
+  .icon-fetch-fail:before,
+  .icon-file-text-o:before,
+  .icon-file1:before,
+  .icon-file2:before,
+  .icon-fire:before,
+  .icon-flag:before,
+  .icon-flag-1:before,
+  .icon-flash:before,
+  .icon-flatscreen:before,
+  .icon-folder:before,
+  .icon-follow-redpack-prize-send-log:before,
+  .icon-follow-redpack-prize-svg:before,
+  .icon-footwear-heels-1:before,
+  .icon-footwear-sock:before,
+  .icon-form-ao:before,
+  .icon-form-date:before,
+  .icon-form-yes:before,
+  .icon-fruit-watermelon:before,
+  .icon-game:before,
+  .icon-gathering:before,
+  .icon-gift:before,
+  .icon-gift-box:before,
+  .icon-gift-heart:before,
+  .icon-gingerbread-man:before,
+  .icon-glass-search:before,
+  .icon-glass35:before,
+  .icon-glass4:before,
+  .icon-gps6:before,
+  .icon-group:before,
+  .icon-guidang:before,
+  .icon-hair-dress-comb:before,
+  .icon-hair-dress-cut:before,
+  .icon-hair-dress-round-brush:before,
+  .icon-has-delivery:before,
+  .icon-header-list:before,
+  .icon-help-wheel:before,
+  .icon-hierarchy-4:before,
+  .icon-hint:before,
+  .icon-hire:before,
+  .icon-hollow-bulb:before,
+  .icon-home:before,
+  .icon-honour:before,
+  .icon-hospital-first-aid:before,
+  .icon-hot51:before,
+  .icon-house-2:before,
+  .icon-house23:before,
+  .icon-i-gift:before,
+  .icon-i-record:before,
+  .icon-ice51:before,
+  .icon-icon-center:before,
+  .icon-icon-left:before,
+  .icon-icon-pen:before,
+  .icon-icon-right:before,
+  .icon-icon-yes:before,
+  .icon-idea:before,
+  .icon-img:before,
+  .icon-integral:before,
+  .icon-interface28:before,
+  .icon-introduce:before,
+  .icon-key:before,
+  .icon-left-arrow23:before,
+  .icon-left157:before,
+  .icon-light:before,
+  .icon-light28:before,
+  .icon-light59:before,
+  .icon-lightning:before,
+  .icon-like-shine:before,
+  .icon-limit:before,
+  .icon-line:before,
+  .icon-link:before,
+  .icon-link2:before,
+  .icon-link5:before,
+  .icon-list7:before,
+  .icon-loading2:before,
+  .icon-location:before,
+  .icon-lock:before,
+  .icon-logistics3:before,
+  .icon-logisties:before,
+  .icon-loop:before,
+  .icon-love-it:before,
+  .icon-lp-store:before,
+  .icon-mailbox-in:before,
+  .icon-make-up-brush-set:before,
+  .icon-make-up-lipstick-1:before,
+  .icon-mass:before,
+  .icon-medical-app-smartphone-listen:before,
+  .icon-medical-instrument-syringe-1:before,
+  .icon-meeting-camera:before,
+  .icon-megaphone-1:before,
+  .icon-member:before,
+  .icon-menswear:before,
+  .icon-menu-app:before,
+  .icon-menu-book:before,
+  .icon-menu-earth:before,
+  .icon-menu-flag:before,
+  .icon-menu-plugin:before,
+  .icon-menu-seed:before,
+  .icon-message:before,
+  .icon-messages-people-user-bubble-circle:before,
+  .icon-milk-carton:before,
+  .icon-milk8:before,
+  .icon-mini:before,
+  .icon-miniprogram-right:before,
+  .icon-mobile:before,
+  .icon-money-atm:before,
+  .icon-money-bag-dollar:before,
+  .icon-money-wallet:before,
+  .icon-monitor:before,
+  .icon-monitor-heart-beat:before,
+  .icon-mood-happy:before,
+  .icon-more:before,
+  .icon-move:before,
+  .icon-multi-type:before,
+  .icon-name:before,
+  .icon-nav:before,
+  .icon-nav-box:before,
+  .icon-nav-list:before,
+  .icon-navigation:before,
+  .icon-navigation-menu-horizontal:before,
+  .icon-network1:before,
+  .icon-news-miniprogram:before,
+  .icon-newspaper-fold:before,
+  .icon-newspaper11:before,
+  .icon-no-item:before,
+  .icon-notes-book-text-alternate:before,
+  .icon-office-stamp-document:before,
+  .icon-online-contact:before,
+  .icon-open:before,
+  .icon-order:before,
+  .icon-order-close:before,
+  .icon-order-complete:before,
+  .icon-order-success:before,
+  .icon-pack:before,
+  .icon-pagebaby146:before,
+  .icon-pagebag45:before,
+  .icon-pagebook244:before,
+  .icon-pagebriefcase65:before,
+  .icon-pagecamera104:before,
+  .icon-pagechart46:before,
+  .icon-pagecinema45:before,
+  .icon-pageclothing401:before,
+  .icon-pagecocktail2:before,
+  .icon-pagedots16:before,
+  .icon-pagedrinks96:before,
+  .icon-pageenvelope54:before,
+  .icon-pagefavourite24:before,
+  .icon-pagefirst21:before,
+  .icon-pageflag86:before,
+  .icon-pagegift84:before,
+  .icon-pagehotel12:before,
+  .icon-pagelight91:before,
+  .icon-pagelogistics3:before,
+  .icon-pagemap49:before,
+  .icon-pagemedical103:before,
+  .icon-pagemessage:before,
+  .icon-pagemessage30:before,
+  .icon-pagemicrophone:before,
+  .icon-pagemug4:before,
+  .icon-pagenote54:before,
+  .icon-pagenotes27:before,
+  .icon-pagepark2:before,
+  .icon-pagepencil124:before,
+  .icon-pagerailway:before,
+  .icon-pagerestaurant23:before,
+  .icon-pageruner:before,
+  .icon-pagespeaker121:before,
+  .icon-pagetravel19:before,
+  .icon-pagetravelling24:before,
+  .icon-pagewireless40:before,
+  .icon-paintbrush:before,
+  .icon-panel:before,
+  .icon-paper5:before,
+  .icon-party:before,
+  .icon-party1:before,
+  .icon-passport:before,
+  .icon-passport-ticket:before,
+  .icon-pay:before,
+  .icon-pay-online:before,
+  .icon-pen-ruler:before,
+  .icon-pencil5:before,
+  .icon-phone:before,
+  .icon-phone11:before,
+  .icon-phone13:before,
+  .icon-phone43:before,
+  .icon-picture:before,
+  .icon-pig:before,
+  .icon-pill:before,
+  .icon-placeholder8:before,
+  .icon-plane:before,
+  .icon-plane-boarding-pass-1:before,
+  .icon-plane-take-off:before,
+  .icon-plate7:before,
+  .icon-popcorn1:before,
+  .icon-presentation-desk-paper:before,
+  .icon-presentation-projector-screen-image:before,
+  .icon-presentation-projector-screen-pie-chart:before,
+  .icon-presentation-projector-screen-play:before,
+  .icon-print:before,
+  .icon-prize-types:before,
+  .icon-public:before,
+  .icon-pull-down:before,
+  .icon-qcloud:before,
+  .icon-qrcode-batch-create:before,
+  .icon-quill-circle:before,
+  .icon-railroad-fast-train:before,
+  .icon-railroad-train:before,
+  .icon-ranking-winner:before,
+  .icon-record-detail:before,
+  .icon-redpack:before,
+  .icon-redpack-activity-prompt:before,
+  .icon-reload:before,
+  .icon-reply:before,
+  .icon-report:before,
+  .icon-rest:before,
+  .icon-restaurant2:before,
+  .icon-right-status:before,
+  .icon-sad:before,
+  .icon-sandwich:before,
+  .icon-saving-piggy-coins:before,
+  .icon-saving-safe-open:before,
+  .icon-scheduling:before,
+  .icon-scooter:before,
+  .icon-score:before,
+  .icon-score-luck:before,
+  .icon-score-shop:before,
+  .icon-score-store:before,
+  .icon-score-two:before,
+  .icon-sea-transport-yacht:before,
+  .icon-seafood-crab:before,
+  .icon-search:before,
+  .icon-security-officer:before,
+  .icon-send-email:before,
+  .icon-send-email-envelope:before,
+  .icon-service-solution:before,
+  .icon-shipment-box:before,
+  .icon-shop:before,
+  .icon-shop-cart:before,
+  .icon-shop-default-img:before,
+  .icon-shop-deliver:before,
+  .icon-shop-list:before,
+  .icon-shop-logistics:before,
+  .icon-shop-order:before,
+  .icon-shop-pay:before,
+  .icon-shop-square:before,
+  .icon-shop-store:before,
+  .icon-shop-vip:before,
+  .icon-shop-wait-pay:before,
+  .icon-shop-weixin:before,
+  .icon-shorts-1:before,
+  .icon-sign-in:before,
+  .icon-sina:before,
+  .icon-small26:before,
+  .icon-small27:before,
+  .icon-small30:before,
+  .icon-small35:before,
+  .icon-small36:before,
+  .icon-smart-watch-square:before,
+  .icon-speaker4:before,
+  .icon-spot:before,
+  .icon-spread:before,
+  .icon-square12:before,
+  .icon-stat:before,
+  .icon-stat-v2:before,
+  .icon-statistics:before,
+  .icon-store-value:before,
+  .icon-switch:before,
+  .icon-sync:before,
+  .icon-tag:before,
+  .icon-tank-top:before,
+  .icon-target:before,
+  .icon-taxi-sign:before,
+  .icon-telephone32:before,
+  .icon-telephone51:before,
+  .icon-three75:before,
+  .icon-thumbs10:before,
+  .icon-thumbs28:before,
+  .icon-ticket3:before,
+  .icon-tips:before,
+  .icon-tool-box:before,
+  .icon-toys-balloon:before,
+  .icon-toys-beach-ball:before,
+  .icon-toys-rocking-horse:before,
+  .icon-toys-teddy-bear:before,
+  .icon-tpl-message:before,
+  .icon-tpl-message2:before,
+  .icon-track:before,
+  .icon-train1:before,
+  .icon-transfusion-human:before,
+  .icon-transmit:before,
+  .icon-transportation-ticket-plane:before,
+  .icon-transportation-ticket-train:before,
+  .icon-travel-luggage:before,
+  .icon-travel-user-pin:before,
+  .icon-trends-hot-flame:before,
+  .icon-triangle:before,
+  .icon-truck-2:before,
+  .icon-tshirt3:before,
+  .icon-type:before,
+  .icon-ueditor-135:before,
+  .icon-ueditor-Line:before,
+  .icon-ueditor-bgcolor:before,
+  .icon-ueditor-bold:before,
+  .icon-ueditor-bottom:before,
+  .icon-ueditor-color:before,
+  .icon-ueditor-coupon:before,
+  .icon-ueditor-dot-list:before,
+  .icon-ueditor-down-arrow:before,
+  .icon-ueditor-eraser:before,
+  .icon-ueditor-img:before,
+  .icon-ueditor-italic:before,
+  .icon-ueditor-left:before,
+  .icon-ueditor-lineheight:before,
+  .icon-ueditor-link:before,
+  .icon-ueditor-middle:before,
+  .icon-ueditor-miniprogram:before,
+  .icon-ueditor-number-list:before,
+  .icon-ueditor-padding:before,
+  .icon-ueditor-quote:before,
+  .icon-ueditor-right:before,
+  .icon-ueditor-space:before,
+  .icon-ueditor-table:before,
+  .icon-ueditor-top:before,
+  .icon-ueditor-underline:before,
+  .icon-ueditor-unlink:before,
+  .icon-ueditor-video:before,
+  .icon-underwear-bikini:before,
+  .icon-unsub:before,
+  .icon-update:before,
+  .icon-upvote:before,
+  .icon-user3:before,
+  .icon-usr-report:before,
+  .icon-vegetables-carrot:before,
+  .icon-view-1:before,
+  .icon-vip:before,
+  .icon-vip-card:before,
+  .icon-vip-sys:before,
+  .icon-wait-delivery:before,
+  .icon-wait-pay:before,
+  .icon-webcam:before,
+  .icon-wechat:before,
+  .icon-wedding:before,
+  .icon-wedding5:before,
+  .icon-weixin:before,
+  .icon-wench:before,
+  .icon-wheel:before,
+  .icon-wine47:before,
+  .icon-wireless:before,
+  .icon-women:before,
+  .icon-worldwide2:before,
+  .icon-wxcard-vip:before,
+  .icon-wxpay:before,
+  .icon-yoga-arms-stretch:before {
+    display: inline-block;
+    font-family: "fontcustom";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+  }
+  
+  .icon-API:before { content: "\f100"; }
+  .icon-accessories-tie:before { content: "\f101"; }
+  .icon-accessories-umbrella-1:before { content: "\f102"; }
+  .icon-accessories-winter-gloves:before { content: "\f103"; }
+  .icon-accounting-calculator:before { content: "\f104"; }
+  .icon-accounting-calculator-2:before { content: "\f105"; }
+  .icon-add-link:before { content: "\f106"; }
+  .icon-advertising-megaphone:before { content: "\f107"; }
+  .icon-airport:before { content: "\f108"; }
+  .icon-airport-road:before { content: "\f109"; }
+  .icon-alarm-bell:before { content: "\f10a"; }
+  .icon-alarm28:before { content: "\f10b"; }
+  .icon-alert:before { content: "\f10c"; }
+  .icon-ambulance-car:before { content: "\f10d"; }
+  .icon-application:before { content: "\f10e"; }
+  .icon-appreciation:before { content: "\f10f"; }
+  .icon-archive:before { content: "\f110"; }
+  .icon-archive-drawer:before { content: "\f111"; }
+  .icon-arrow-right:before { content: "\f112"; }
+  .icon-article:before { content: "\f113"; }
+  .icon-auth:before { content: "\f114"; }
+  .icon-award-medal-1:before { content: "\f115"; }
+  .icon-award-trophy-star-1:before { content: "\f116"; }
+  .icon-baby-boy:before { content: "\f117"; }
+  .icon-baby-care-body:before { content: "\f118"; }
+  .icon-baby-care-bottle:before { content: "\f119"; }
+  .icon-baby-care-trolley:before { content: "\f11a"; }
+  .icon-back:before { content: "\f11b"; }
+  .icon-back2:before { content: "\f11c"; }
+  .icon-bag-handle:before { content: "\f11d"; }
+  .icon-baggage:before { content: "\f11e"; }
+  .icon-baggage-1:before { content: "\f11f"; }
+  .icon-baggage-plane:before { content: "\f120"; }
+  .icon-balloon:before { content: "\f121"; }
+  .icon-bananas1:before { content: "\f122"; }
+  .icon-basketball:before { content: "\f123"; }
+  .icon-batch:before { content: "\f124"; }
+  .icon-batch-create-qrcode-help:before { content: "\f2f1"; }
+  .icon-beer-mug:before { content: "\f125"; }
+  .icon-bicycle:before { content: "\f126"; }
+  .icon-bid:before { content: "\f127"; }
+  .icon-big39:before { content: "\f128"; }
+  .icon-black-mobile:before { content: "\f129"; }
+  .icon-blackberry3:before { content: "\f12a"; }
+  .icon-body-care-mask:before { content: "\f12b"; }
+  .icon-book:before { content: "\f12c"; }
+  .icon-book-close-bookmark-1:before { content: "\f12d"; }
+  .icon-book-open-text:before { content: "\f12e"; }
+  .icon-book-star:before { content: "\f12f"; }
+  .icon-book2:before { content: "\f130"; }
+  .icon-booking:before { content: "\f131"; }
+  .icon-booking-member:before { content: "\f132"; }
+  .icon-books8:before { content: "\f133"; }
+  .icon-brand:before { content: "\f134"; }
+  .icon-breakfast-cereal:before { content: "\f135"; }
+  .icon-broadcast:before { content: "\f136"; }
+  .icon-bulb:before { content: "\f137"; }
+  .icon-bus-station:before { content: "\f138"; }
+  .icon-cable-car:before { content: "\f139"; }
+  .icon-calendar:before { content: "\f13a"; }
+  .icon-calendar70:before { content: "\f13b"; }
+  .icon-camera:before { content: "\f13c"; }
+  .icon-cancel:before { content: "\f13d"; }
+  .icon-cap-3:before { content: "\f13e"; }
+  .icon-car:before { content: "\f13f"; }
+  .icon-car-retro-1:before { content: "\f140"; }
+  .icon-card2:before { content: "\f141"; }
+  .icon-cash-payment-bills:before { content: "\f142"; }
+  .icon-charcoal:before { content: "\f143"; }
+  .icon-chat:before { content: "\f144"; }
+  .icon-chat-system:before { content: "\f145"; }
+  .icon-chats:before { content: "\f146"; }
+  .icon-check:before { content: "\f147"; }
+  .icon-check-badge:before { content: "\f148"; }
+  .icon-check-circle:before { content: "\f149"; }
+  .icon-check-payment-sign:before { content: "\f14a"; }
+  .icon-check-success:before { content: "\f14b"; }
+  .icon-close:before { content: "\f14c"; }
+  .icon-close-thin:before { content: "\f14d"; }
+  .icon-clothes-design-button:before { content: "\f14e"; }
+  .icon-cocktail-martini:before { content: "\f14f"; }
+  .icon-cocktail7:before { content: "\f150"; }
+  .icon-code-append:before { content: "\f151"; }
+  .icon-code-select:before { content: "\f152"; }
+  .icon-codebox-code:before { content: "\f153"; }
+  .icon-codebox-redpack:before { content: "\f154"; }
+  .icon-codebox-score:before { content: "\f155"; }
+  .icon-coffee:before { content: "\f156"; }
+  .icon-coffee-straw:before { content: "\f157"; }
+  .icon-coffee26:before { content: "\f158"; }
+  .icon-cog-1:before { content: "\f159"; }
+  .icon-comp:before { content: "\f15a"; }
+  .icon-compass-dark:before { content: "\f15b"; }
+  .icon-conversation:before { content: "\f15c"; }
+  .icon-conversation-chat-2:before { content: "\f15d"; }
+  .icon-convert:before { content: "\f15e"; }
+  .icon-cooking15:before { content: "\f15f"; }
+  .icon-cooperation:before { content: "\f160"; }
+  .icon-count:before { content: "\f161"; }
+  .icon-counts:before { content: "\f162"; }
+  .icon-coupon:before { content: "\f163"; }
+  .icon-coupon-consumed:before { content: "\f164"; }
+  .icon-coupon-expired:before { content: "\f165"; }
+  .icon-coupon-gift:before { content: "\f166"; }
+  .icon-coupon2:before { content: "\f167"; }
+  .icon-covered16:before { content: "\f168"; }
+  .icon-credit-card:before { content: "\f169"; }
+  .icon-crown:before { content: "\f16a"; }
+  .icon-crypto-currency-bitcoin-circle:before { content: "\f16b"; }
+  .icon-cupcake:before { content: "\f16c"; }
+  .icon-currency-yuan-circle:before { content: "\f16d"; }
+  .icon-customer:before { content: "\f16e"; }
+  .icon-customers:before { content: "\f16f"; }
+  .icon-cutlery6:before { content: "\f170"; }
+  .icon-data:before { content: "\f171"; }
+  .icon-data-store:before { content: "\f172"; }
+  .icon-dealer:before { content: "\f173"; }
+  .icon-define-score:before { content: "\f174"; }
+  .icon-delete:before { content: "\f175"; }
+  .icon-dentistry-tooth-brush:before { content: "\f176"; }
+  .icon-description:before { content: "\f177"; }
+  .icon-design-file-pyramid:before { content: "\f178"; }
+  .icon-design-file-text-image:before { content: "\f179"; }
+  .icon-design-tool-stamp:before { content: "\f17a"; }
+  .icon-details:before { content: "\f17b"; }
+  .icon-diet-scale:before { content: "\f17c"; }
+  .icon-diet-waist-1:before { content: "\f17d"; }
+  .icon-download:before { content: "\f17e"; }
+  .icon-download-pic:before { content: "\f17f"; }
+  .icon-download16:before { content: "\f180"; }
+  .icon-drawer:before { content: "\f181"; }
+  .icon-dress-1:before { content: "\f182"; }
+  .icon-drink24:before { content: "\f183"; }
+  .icon-dripcrm:before { content: "\f184"; }
+  .icon-drone:before { content: "\f185"; }
+  .icon-edit:before { content: "\f186"; }
+  .icon-edit2:before { content: "\f187"; }
+  .icon-edit3:before { content: "\f188"; }
+  .icon-educative-toys-alphabet:before { content: "\f189"; }
+  .icon-educative-toys-house:before { content: "\f18a"; }
+  .icon-educative-toys-maths:before { content: "\f18b"; }
+  .icon-error-status:before { content: "\f18c"; }
+  .icon-excel:before { content: "\f18d"; }
+  .icon-expired:before { content: "\f18e"; }
+  .icon-explain:before { content: "\f18f"; }
+  .icon-explain2:before { content: "\f190"; }
+  .icon-export:before { content: "\f191"; }
+  .icon-exsise:before { content: "\f192"; }
+  .icon-face:before { content: "\f193"; }
+  .icon-face-id-1:before { content: "\f194"; }
+  .icon-family-umbrella-protect:before { content: "\f195"; }
+  .icon-fan:before { content: "\f196"; }
+  .icon-fan-contact:before { content: "\f197"; }
+  .icon-fast-food-burger:before { content: "\f198"; }
+  .icon-fast-food-french-fries:before { content: "\f199"; }
+  .icon-fast-redpack:before { content: "\f19a"; }
+  .icon-favourites:before { content: "\f19b"; }
+  .icon-festival:before { content: "\f19c"; }
+  .icon-fetch-fail:before { content: "\f19d"; }
+  .icon-file-text-o:before { content: "\f19e"; }
+  .icon-file1:before { content: "\f19f"; }
+  .icon-file2:before { content: "\f1a0"; }
+  .icon-fire:before { content: "\f1a1"; }
+  .icon-flag:before { content: "\f1a2"; }
+  .icon-flag-1:before { content: "\f1a3"; }
+  .icon-flash:before { content: "\f1a4"; }
+  .icon-flatscreen:before { content: "\f1a5"; }
+  .icon-folder:before { content: "\f2fb"; }
+  .icon-follow-redpack-prize-send-log:before { content: "\f1a6"; }
+  .icon-follow-redpack-prize-svg:before { content: "\f1a7"; }
+  .icon-footwear-heels-1:before { content: "\f1a8"; }
+  .icon-footwear-sock:before { content: "\f1a9"; }
+  .icon-form-ao:before { content: "\f1aa"; }
+  .icon-form-date:before { content: "\f1ab"; }
+  .icon-form-yes:before { content: "\f1ac"; }
+  .icon-fruit-watermelon:before { content: "\f1ad"; }
+  .icon-game:before { content: "\f1ae"; }
+  .icon-gathering:before { content: "\f1af"; }
+  .icon-gift:before { content: "\f1b0"; }
+  .icon-gift-box:before { content: "\f1b1"; }
+  .icon-gift-heart:before { content: "\f1b2"; }
+  .icon-gingerbread-man:before { content: "\f1b3"; }
+  .icon-glass-search:before { content: "\f1b4"; }
+  .icon-glass35:before { content: "\f1b5"; }
+  .icon-glass4:before { content: "\f1b6"; }
+  .icon-gps6:before { content: "\f1b7"; }
+  .icon-group:before { content: "\f1b8"; }
+  .icon-guidang:before { content: "\f1b9"; }
+  .icon-hair-dress-comb:before { content: "\f1ba"; }
+  .icon-hair-dress-cut:before { content: "\f1bb"; }
+  .icon-hair-dress-round-brush:before { content: "\f1bc"; }
+  .icon-has-delivery:before { content: "\f1bd"; }
+  .icon-header-list:before { content: "\f1be"; }
+  .icon-help-wheel:before { content: "\f1bf"; }
+  .icon-hierarchy-4:before { content: "\f1c0"; }
+  .icon-hint:before { content: "\f1c1"; }
+  .icon-hire:before { content: "\f1c2"; }
+  .icon-hollow-bulb:before { content: "\f1c3"; }
+  .icon-home:before { content: "\f1c4"; }
+  .icon-honour:before { content: "\f1c5"; }
+  .icon-hospital-first-aid:before { content: "\f1c6"; }
+  .icon-hot51:before { content: "\f1c7"; }
+  .icon-house-2:before { content: "\f1c8"; }
+  .icon-house23:before { content: "\f1c9"; }
+  .icon-i-gift:before { content: "\f1ca"; }
+  .icon-i-record:before { content: "\f1cb"; }
+  .icon-ice51:before { content: "\f1cc"; }
+  .icon-icon-center:before { content: "\f1cd"; }
+  .icon-icon-left:before { content: "\f1ce"; }
+  .icon-icon-pen:before { content: "\f1cf"; }
+  .icon-icon-right:before { content: "\f1d0"; }
+  .icon-icon-yes:before { content: "\f1d1"; }
+  .icon-idea:before { content: "\f1d2"; }
+  .icon-img:before { content: "\f1d3"; }
+  .icon-integral:before { content: "\f1d4"; }
+  .icon-interface28:before { content: "\f1d5"; }
+  .icon-introduce:before { content: "\f1d6"; }
+  .icon-key:before { content: "\f2fc"; }
+  .icon-left-arrow23:before { content: "\f1d7"; }
+  .icon-left157:before { content: "\f1d8"; }
+  .icon-light:before { content: "\f2f9"; }
+  .icon-light28:before { content: "\f1d9"; }
+  .icon-light59:before { content: "\f1da"; }
+  .icon-lightning:before { content: "\f1db"; }
+  .icon-like-shine:before { content: "\f1dc"; }
+  .icon-limit:before { content: "\f1dd"; }
+  .icon-line:before { content: "\f1de"; }
+  .icon-link:before { content: "\f1df"; }
+  .icon-link2:before { content: "\f1e0"; }
+  .icon-link5:before { content: "\f1e1"; }
+  .icon-list7:before { content: "\f1e2"; }
+  .icon-loading2:before { content: "\f1e3"; }
+  .icon-location:before { content: "\f1e4"; }
+  .icon-lock:before { content: "\f2fd"; }
+  .icon-logistics3:before { content: "\f1e5"; }
+  .icon-logisties:before { content: "\f1e6"; }
+  .icon-loop:before { content: "\f1e7"; }
+  .icon-love-it:before { content: "\f1e8"; }
+  .icon-lp-store:before { content: "\f1e9"; }
+  .icon-mailbox-in:before { content: "\f1ea"; }
+  .icon-make-up-brush-set:before { content: "\f1eb"; }
+  .icon-make-up-lipstick-1:before { content: "\f1ec"; }
+  .icon-mass:before { content: "\f1ed"; }
+  .icon-medical-app-smartphone-listen:before { content: "\f1ee"; }
+  .icon-medical-instrument-syringe-1:before { content: "\f1ef"; }
+  .icon-meeting-camera:before { content: "\f1f0"; }
+  .icon-megaphone-1:before { content: "\f1f1"; }
+  .icon-member:before { content: "\f1f2"; }
+  .icon-menswear:before { content: "\f1f3"; }
+  .icon-menu-app:before { content: "\f2f3"; }
+  .icon-menu-book:before { content: "\f2f4"; }
+  .icon-menu-earth:before { content: "\f2f5"; }
+  .icon-menu-flag:before { content: "\f2f6"; }
+  .icon-menu-plugin:before { content: "\f2f7"; }
+  .icon-menu-seed:before { content: "\f2f8"; }
+  .icon-message:before { content: "\f1f4"; }
+  .icon-messages-people-user-bubble-circle:before { content: "\f1f5"; }
+  .icon-milk-carton:before { content: "\f1f6"; }
+  .icon-milk8:before { content: "\f1f7"; }
+  .icon-mini:before { content: "\f1f8"; }
+  .icon-miniprogram-right:before { content: "\f1f9"; }
+  .icon-mobile:before { content: "\f1fa"; }
+  .icon-money-atm:before { content: "\f1fb"; }
+  .icon-money-bag-dollar:before { content: "\f1fc"; }
+  .icon-money-wallet:before { content: "\f1fd"; }
+  .icon-monitor:before { content: "\f1fe"; }
+  .icon-monitor-heart-beat:before { content: "\f1ff"; }
+  .icon-mood-happy:before { content: "\f200"; }
+  .icon-more:before { content: "\f201"; }
+  .icon-move:before { content: "\f202"; }
+  .icon-multi-type:before { content: "\f203"; }
+  .icon-name:before { content: "\f204"; }
+  .icon-nav:before { content: "\f205"; }
+  .icon-nav-box:before { content: "\f206"; }
+  .icon-nav-list:before { content: "\f207"; }
+  .icon-navigation:before { content: "\f208"; }
+  .icon-navigation-menu-horizontal:before { content: "\f209"; }
+  .icon-network1:before { content: "\f20a"; }
+  .icon-news-miniprogram:before { content: "\f20b"; }
+  .icon-newspaper-fold:before { content: "\f20c"; }
+  .icon-newspaper11:before { content: "\f20d"; }
+  .icon-no-item:before { content: "\f20e"; }
+  .icon-notes-book-text-alternate:before { content: "\f20f"; }
+  .icon-office-stamp-document:before { content: "\f210"; }
+  .icon-online-contact:before { content: "\f211"; }
+  .icon-open:before { content: "\f212"; }
+  .icon-order:before { content: "\f213"; }
+  .icon-order-close:before { content: "\f214"; }
+  .icon-order-complete:before { content: "\f215"; }
+  .icon-order-success:before { content: "\f216"; }
+  .icon-pack:before { content: "\f217"; }
+  .icon-pagebaby146:before { content: "\f218"; }
+  .icon-pagebag45:before { content: "\f219"; }
+  .icon-pagebook244:before { content: "\f21a"; }
+  .icon-pagebriefcase65:before { content: "\f21b"; }
+  .icon-pagecamera104:before { content: "\f21c"; }
+  .icon-pagechart46:before { content: "\f21d"; }
+  .icon-pagecinema45:before { content: "\f21e"; }
+  .icon-pageclothing401:before { content: "\f21f"; }
+  .icon-pagecocktail2:before { content: "\f220"; }
+  .icon-pagedots16:before { content: "\f221"; }
+  .icon-pagedrinks96:before { content: "\f222"; }
+  .icon-pageenvelope54:before { content: "\f223"; }
+  .icon-pagefavourite24:before { content: "\f224"; }
+  .icon-pagefirst21:before { content: "\f225"; }
+  .icon-pageflag86:before { content: "\f226"; }
+  .icon-pagegift84:before { content: "\f227"; }
+  .icon-pagehotel12:before { content: "\f228"; }
+  .icon-pagelight91:before { content: "\f229"; }
+  .icon-pagelogistics3:before { content: "\f22a"; }
+  .icon-pagemap49:before { content: "\f22b"; }
+  .icon-pagemedical103:before { content: "\f22c"; }
+  .icon-pagemessage:before { content: "\f22d"; }
+  .icon-pagemessage30:before { content: "\f22e"; }
+  .icon-pagemicrophone:before { content: "\f22f"; }
+  .icon-pagemug4:before { content: "\f230"; }
+  .icon-pagenote54:before { content: "\f231"; }
+  .icon-pagenotes27:before { content: "\f232"; }
+  .icon-pagepark2:before { content: "\f233"; }
+  .icon-pagepencil124:before { content: "\f234"; }
+  .icon-pagerailway:before { content: "\f235"; }
+  .icon-pagerestaurant23:before { content: "\f236"; }
+  .icon-pageruner:before { content: "\f237"; }
+  .icon-pagespeaker121:before { content: "\f238"; }
+  .icon-pagetravel19:before { content: "\f239"; }
+  .icon-pagetravelling24:before { content: "\f23a"; }
+  .icon-pagewireless40:before { content: "\f23b"; }
+  .icon-paintbrush:before { content: "\f23c"; }
+  .icon-panel:before { content: "\f23d"; }
+  .icon-paper5:before { content: "\f23e"; }
+  .icon-party:before { content: "\f23f"; }
+  .icon-party1:before { content: "\f240"; }
+  .icon-passport:before { content: "\f241"; }
+  .icon-passport-ticket:before { content: "\f242"; }
+  .icon-pay:before { content: "\f243"; }
+  .icon-pay-online:before { content: "\f244"; }
+  .icon-pen-ruler:before { content: "\f245"; }
+  .icon-pencil5:before { content: "\f246"; }
+  .icon-phone:before { content: "\f247"; }
+  .icon-phone11:before { content: "\f248"; }
+  .icon-phone13:before { content: "\f249"; }
+  .icon-phone43:before { content: "\f24a"; }
+  .icon-picture:before { content: "\f24b"; }
+  .icon-pig:before { content: "\f24c"; }
+  .icon-pill:before { content: "\f24d"; }
+  .icon-placeholder8:before { content: "\f24e"; }
+  .icon-plane:before { content: "\f24f"; }
+  .icon-plane-boarding-pass-1:before { content: "\f250"; }
+  .icon-plane-take-off:before { content: "\f251"; }
+  .icon-plate7:before { content: "\f252"; }
+  .icon-popcorn1:before { content: "\f253"; }
+  .icon-presentation-desk-paper:before { content: "\f254"; }
+  .icon-presentation-projector-screen-image:before { content: "\f255"; }
+  .icon-presentation-projector-screen-pie-chart:before { content: "\f256"; }
+  .icon-presentation-projector-screen-play:before { content: "\f257"; }
+  .icon-print:before { content: "\f258"; }
+  .icon-prize-types:before { content: "\f259"; }
+  .icon-public:before { content: "\f25a"; }
+  .icon-pull-down:before { content: "\f25b"; }
+  .icon-qcloud:before { content: "\f25c"; }
+  .icon-qrcode-batch-create:before { content: "\f2f0"; }
+  .icon-quill-circle:before { content: "\f25d"; }
+  .icon-railroad-fast-train:before { content: "\f25e"; }
+  .icon-railroad-train:before { content: "\f25f"; }
+  .icon-ranking-winner:before { content: "\f260"; }
+  .icon-record-detail:before { content: "\f261"; }
+  .icon-redpack:before { content: "\f2fa"; }
+  .icon-redpack-activity-prompt:before { content: "\f2ef"; }
+  .icon-reload:before { content: "\f262"; }
+  .icon-reply:before { content: "\f263"; }
+  .icon-report:before { content: "\f264"; }
+  .icon-rest:before { content: "\f265"; }
+  .icon-restaurant2:before { content: "\f266"; }
+  .icon-right-status:before { content: "\f267"; }
+  .icon-sad:before { content: "\f268"; }
+  .icon-sandwich:before { content: "\f269"; }
+  .icon-saving-piggy-coins:before { content: "\f26a"; }
+  .icon-saving-safe-open:before { content: "\f26b"; }
+  .icon-scheduling:before { content: "\f26c"; }
+  .icon-scooter:before { content: "\f26d"; }
+  .icon-score:before { content: "\f26e"; }
+  .icon-score-luck:before { content: "\f26f"; }
+  .icon-score-shop:before { content: "\f270"; }
+  .icon-score-store:before { content: "\f271"; }
+  .icon-score-two:before { content: "\f272"; }
+  .icon-sea-transport-yacht:before { content: "\f273"; }
+  .icon-seafood-crab:before { content: "\f274"; }
+  .icon-search:before { content: "\f275"; }
+  .icon-security-officer:before { content: "\f276"; }
+  .icon-send-email:before { content: "\f277"; }
+  .icon-send-email-envelope:before { content: "\f278"; }
+  .icon-service-solution:before { content: "\f279"; }
+  .icon-shipment-box:before { content: "\f27a"; }
+  .icon-shop:before { content: "\f27b"; }
+  .icon-shop-cart:before { content: "\f27c"; }
+  .icon-shop-default-img:before { content: "\f27d"; }
+  .icon-shop-deliver:before { content: "\f27e"; }
+  .icon-shop-list:before { content: "\f27f"; }
+  .icon-shop-logistics:before { content: "\f280"; }
+  .icon-shop-order:before { content: "\f281"; }
+  .icon-shop-pay:before { content: "\f282"; }
+  .icon-shop-square:before { content: "\f283"; }
+  .icon-shop-store:before { content: "\f284"; }
+  .icon-shop-vip:before { content: "\f285"; }
+  .icon-shop-wait-pay:before { content: "\f286"; }
+  .icon-shop-weixin:before { content: "\f287"; }
+  .icon-shorts-1:before { content: "\f288"; }
+  .icon-sign-in:before { content: "\f289"; }
+  .icon-sina:before { content: "\f28a"; }
+  .icon-small26:before { content: "\f28b"; }
+  .icon-small27:before { content: "\f28c"; }
+  .icon-small30:before { content: "\f28d"; }
+  .icon-small35:before { content: "\f28e"; }
+  .icon-small36:before { content: "\f28f"; }
+  .icon-smart-watch-square:before { content: "\f290"; }
+  .icon-speaker4:before { content: "\f291"; }
+  .icon-spot:before { content: "\f292"; }
+  .icon-spread:before { content: "\f293"; }
+  .icon-square12:before { content: "\f294"; }
+  .icon-stat:before { content: "\f295"; }
+  .icon-stat-v2:before { content: "\f2f2"; }
+  .icon-statistics:before { content: "\f296"; }
+  .icon-store-value:before { content: "\f297"; }
+  .icon-switch:before { content: "\f298"; }
+  .icon-sync:before { content: "\f299"; }
+  .icon-tag:before { content: "\f29a"; }
+  .icon-tank-top:before { content: "\f29b"; }
+  .icon-target:before { content: "\f29c"; }
+  .icon-taxi-sign:before { content: "\f29d"; }
+  .icon-telephone32:before { content: "\f29e"; }
+  .icon-telephone51:before { content: "\f29f"; }
+  .icon-three75:before { content: "\f2a0"; }
+  .icon-thumbs10:before { content: "\f2a1"; }
+  .icon-thumbs28:before { content: "\f2a2"; }
+  .icon-ticket3:before { content: "\f2a3"; }
+  .icon-tips:before { content: "\f2a4"; }
+  .icon-tool-box:before { content: "\f2a5"; }
+  .icon-toys-balloon:before { content: "\f2a6"; }
+  .icon-toys-beach-ball:before { content: "\f2a7"; }
+  .icon-toys-rocking-horse:before { content: "\f2a8"; }
+  .icon-toys-teddy-bear:before { content: "\f2a9"; }
+  .icon-tpl-message:before { content: "\f2aa"; }
+  .icon-tpl-message2:before { content: "\f2ab"; }
+  .icon-track:before { content: "\f2ac"; }
+  .icon-train1:before { content: "\f2ad"; }
+  .icon-transfusion-human:before { content: "\f2ae"; }
+  .icon-transmit:before { content: "\f2af"; }
+  .icon-transportation-ticket-plane:before { content: "\f2b0"; }
+  .icon-transportation-ticket-train:before { content: "\f2b1"; }
+  .icon-travel-luggage:before { content: "\f2b2"; }
+  .icon-travel-user-pin:before { content: "\f2b3"; }
+  .icon-trends-hot-flame:before { content: "\f2b4"; }
+  .icon-triangle:before { content: "\f2b5"; }
+  .icon-truck-2:before { content: "\f2b6"; }
+  .icon-tshirt3:before { content: "\f2b7"; }
+  .icon-type:before { content: "\f2b8"; }
+  .icon-ueditor-135:before { content: "\f2b9"; }
+  .icon-ueditor-Line:before { content: "\f2ba"; }
+  .icon-ueditor-bgcolor:before { content: "\f2bb"; }
+  .icon-ueditor-bold:before { content: "\f2bc"; }
+  .icon-ueditor-bottom:before { content: "\f2bd"; }
+  .icon-ueditor-color:before { content: "\f2be"; }
+  .icon-ueditor-coupon:before { content: "\f2bf"; }
+  .icon-ueditor-dot-list:before { content: "\f2c0"; }
+  .icon-ueditor-down-arrow:before { content: "\f2c1"; }
+  .icon-ueditor-eraser:before { content: "\f2c2"; }
+  .icon-ueditor-img:before { content: "\f2c3"; }
+  .icon-ueditor-italic:before { content: "\f2c4"; }
+  .icon-ueditor-left:before { content: "\f2c5"; }
+  .icon-ueditor-lineheight:before { content: "\f2c6"; }
+  .icon-ueditor-link:before { content: "\f2c7"; }
+  .icon-ueditor-middle:before { content: "\f2c8"; }
+  .icon-ueditor-miniprogram:before { content: "\f2c9"; }
+  .icon-ueditor-number-list:before { content: "\f2ca"; }
+  .icon-ueditor-padding:before { content: "\f2cb"; }
+  .icon-ueditor-quote:before { content: "\f2cc"; }
+  .icon-ueditor-right:before { content: "\f2cd"; }
+  .icon-ueditor-space:before { content: "\f2ce"; }
+  .icon-ueditor-table:before { content: "\f2cf"; }
+  .icon-ueditor-top:before { content: "\f2d0"; }
+  .icon-ueditor-underline:before { content: "\f2d1"; }
+  .icon-ueditor-unlink:before { content: "\f2d2"; }
+  .icon-ueditor-video:before { content: "\f2d3"; }
+  .icon-underwear-bikini:before { content: "\f2d4"; }
+  .icon-unsub:before { content: "\f2d5"; }
+  .icon-update:before { content: "\f2d6"; }
+  .icon-upvote:before { content: "\f2d7"; }
+  .icon-user3:before { content: "\f2d8"; }
+  .icon-usr-report:before { content: "\f2d9"; }
+  .icon-vegetables-carrot:before { content: "\f2da"; }
+  .icon-view-1:before { content: "\f2db"; }
+  .icon-vip:before { content: "\f2dc"; }
+  .icon-vip-card:before { content: "\f2dd"; }
+  .icon-vip-sys:before { content: "\f2de"; }
+  .icon-wait-delivery:before { content: "\f2df"; }
+  .icon-wait-pay:before { content: "\f2e0"; }
+  .icon-webcam:before { content: "\f2e1"; }
+  .icon-wechat:before { content: "\f2e2"; }
+  .icon-wedding:before { content: "\f2e3"; }
+  .icon-wedding5:before { content: "\f2e4"; }
+  .icon-weixin:before { content: "\f2e5"; }
+  .icon-wench:before { content: "\f2e6"; }
+  .icon-wheel:before { content: "\f2e7"; }
+  .icon-wine47:before { content: "\f2e8"; }
+  .icon-wireless:before { content: "\f2e9"; }
+  .icon-women:before { content: "\f2ea"; }
+  .icon-worldwide2:before { content: "\f2eb"; }
+  .icon-wxcard-vip:before { content: "\f2ec"; }
+  .icon-wxpay:before { content: "\f2ed"; }
+  .icon-yoga-arms-stretch:before { content: "\f2ee"; }

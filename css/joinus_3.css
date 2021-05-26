@@ -1,0 +1,121 @@
+/*.marvel-device{
+  margin: 50px auto 0 auto;
+  display: block;
+}
+.screen {
+  font-size: 16px;
+  color: #333;
+  overflow: auto;
+}
+.screen::-webkit-scrollbar{
+  width: 0;
+}
+.screen .ui-form{
+  overflow: hidden;
+  min-height: 100%;
+}
+*/
+html,body{
+    font-family:"Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;
+  }
+  .screen .ui-form{
+    overflow: hidden;
+    min-height: 580px;
+  }
+  .ui-form .ui-content {
+    word-break: normal;
+    word-wrap: normal;
+  }
+  @media screen and (min-width:721px) {
+    .screen {
+      width: 400px;
+      margin-left: -200px;
+      font-size: 16px;
+      color: #333;
+      margin: 30px 0 30px -200px;
+      position: relative;
+      left: 50%;
+      display: inline-block;
+    }
+    html,body{
+      font-size: 16px !important;
+      background-color: #8e8a87;
+    }
+    .ui-form .loading,
+    .ui-form .submit-loading{
+      position: absolute;
+    }
+    .field-label .position{
+      display: none;
+    }
+  }
+  @media screen and (max-width:720px){
+    .qrcode{
+      display: none !important;
+    }
+    .screen{
+      height: initial;
+      min-height: 100%;
+    }
+    .screen .ui-form{
+      position: absolute;
+      min-height: 100%;
+      width: 100%;
+    }
+  }
+  .screen .ui-form.statistics{
+    background-color: #fff;
+    position: relative;
+  }
+  .screen .preview-tip{
+    background-color: #3c3c3c;
+    margin: 16px 0;
+    color: #666;
+    padding: 8px;
+    font-size: 14px;
+  }
+  .screen .preview-tip em{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../../../img/shop/single/form/tips.png);
+    position: relative;
+    top: 3px;
+    margin: 0 3px;
+  }
+  .qrcode{
+    padding: 15px 0 10px 0;
+    width: 160px;
+    background: #7b7875;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left: 52%;
+    top: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+  }
+  .qrcode .img-side{
+    margin: 0 auto;
+    width: 130px;
+    height: 130px;
+    background-color: #fff;
+    margin-bottom: 5px;
+  }
+  .qrcode > p {
+    line-height: 1.4;
+  }
+  .qrcode img{
+    width: 115px;
+    height: 115px;
+    margin-top: 8px;
+  }
+  img
+  {
+    outline-width:0px;
+    vertical-align:top;
+  }
+  iframe.video_iframe {
+      width: 100% !important;
+  }
