@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>快嘟嘟家政-订单查询</title>
+	<meta name="keywords" content="保洁,搬家,维修,清洗,保姆,月嫂,安装,企业保洁,四川快嘟嘟家政服务有限公司,快嘟嘟家政,家政公司,保洁服务" />
+	<meta name="description" content="四川快嘟嘟家政服务有限公司，一站式互联网服务平台，全品类综合家政服务商,让您的家拥有看得见的幸福" />
+	<script type="text/javascript" src="js/static_js_redirect.js"></script>
+	<link rel="shortcut icon" type="image/x-icon" href="images/LOGO.ico">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/jpreloader.css"/>
+	<link rel="stylesheet" type="text/css" href="css/static_css_common.css" />
+	<link rel="stylesheet" type="text/css" href="css/static_plugin_animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/chaxun.css">
+    <link rel="stylesheet" type="text/css" href="css/layui.css">
+    <link rel="stylesheet" type="text/css" href="css/joinus_1.css" />
+    <link rel="stylesheet" type="text/css" href="css/joinus_2.css" />
+    <link rel="stylesheet" type="text/css" href="css/joinus_3.css" />
+    <link rel="stylesheet" type="text/css" href="css/joinus_4.css" />
+    <link rel="stylesheet" type="text/css" href="css/joinus_5.css" />
+    <link rel="stylesheet" type="text/css" href="css/joinus_6.css" />
+
+	<link rel="stylesheet" href="css/font-awesome.css" type="text/css">
+	<link rel="stylesheet" href="css/elegant_font.css" type="text/css">
+	<link rel="stylesheet" href="css/et-line-font.css" type="text/css">
+
+	<style type="text/css">
+		body
+		html {
+			width: 100%;
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+    <script type="text/javascript">
+        function display_alert()
+          {
+            alert("服务项目：专项清洁-抽烟机清洗"+"\n"+
+                  "服务地址：南充市XX路XX号"+"\n"+
+                  "联系电话：18888888888"+"\n"+
+                  "预约服务时间：2021-05-27 18:00:00"+"\n"+
+                  "订单状态：已完成"+"\n"
+                  ); // 查询成功后返回的内容
+          }
+        </script>
+</head>
+
+<body>
+
+<div class="container">
+	<section id="introduce">
+		<nav id="navs">
+			<ul class="clearfix">
+				<li class="select">
+					<a>订单查询</a>
+				</li>
+			</ul>
+            <form class="layui-form" action="">
+                <div class="layui-bg-gray" style="padding: 30px;">
+                    <div class="ui-field fn-clear  " id="field_101" data-field-id="101" data-field-type="phone" >
+                        <label class="field-label fn-clear" style="color:#000000;">
+                          请输入手机号码：
+                          <span class="required">*</span>
+                          <span class="tips"></span>
+                        </label>
+                        <div class="field-content">
+                            <input type="text" name="title" required  lay-verify="required" placeholder="请输入手机号码" autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <ul class="clearfix">
+				<li class="select">
+					<input type="button" value="查询" style="display:block;margin:0 auto" class="chaxun" onclick="display_alert()">
+				</li>
+			</ul>
+		</nav>
+	</section>
+</div>
+
+
+<script type="text/javascript" src="js/static_js_jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/static_layer.js"></script>
+<script type="text/javascript" src="js/static_comm_config.js"></script>
+<script type="text/javascript" src="js/static_comm_globalFun.js"></script>
+<script type="text/javascript" src="js/static_js_commom.js"></script>
+<script type="text/javascript" src="js/static_plugin_wow.min.js"></script>
+<script type="text/javascript" src="js/static_plugin_jquery.SuperSlide.2.1.js"></script>
+<script type="text/javascript" src="js/static_plugin_zoompic.js"></script>
+<script type="text/javascript" src="js/layui.js" charset="utf-8"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/redirect.js"></script>
+
+<script>
+	wow = new WOW({
+		animateClass: 'animated',
+	});
+	wow.init();
+
+	//加载效果
+	jQuery(window).load(function() {
+		jQuery(".status").fadeOut();
+		jQuery(".preloader").delay(1000).fadeOut("slow");
+	});
+</script>
+<script type="text/javascript">
+	$("#navs li").on("click", function() {
+		$(this).addClass("select").siblings().removeClass("select");
+	})
+
+	var hash = location.hash;
+	$("a[href='" + hash + "']").parent().addClass("select").siblings().removeClass("select");
+
+	new ZoomPic("focus_Box");
+</script>
+	
+</body>
+
+</html>

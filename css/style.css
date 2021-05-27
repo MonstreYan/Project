@@ -1502,9 +1502,6 @@ footer ul li a i{
 	padding-bottom: 30px;
 	overflow: hidden;
 }
-.blete-features-section h2 {
-
-}
 .blete-counter-section{
 	background-color: #56ACCB;
 	background-attachment: fixed;
@@ -1522,11 +1519,6 @@ footer ul li a i{
 	padding: 80px 0;
 	overflow: hidden;
 }
-
-
-
-
-
 /*æ–°å¢ž*/
 .feature-box-small-icon i, a.btn-border:after, .de_count{
 	-o-transition:.5s;
