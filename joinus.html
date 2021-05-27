@@ -171,61 +171,6 @@
         </div>
         </li>
     </script>
-
-
-<script id="goods-item-tpl" type="text/template">
-<dl>
-  <dt>${item.name}</dt>
-  <dd class="price">￥${item.price|realPrice}</dd>
-  <dd class="stock">库存：${item.stock}</dd>
-</dl>
-<div class="control">
-  {@if number > 0}
-    <em class="delete"><i>－</i></em><span>${number}</span><em class="add"><i>＋</i></em>
-  {@else}
-    <em class="add"><i>＋</i></em>
-  {@/if}
-</div>
-</script>
-
-<script id="dui-alert-tpl" type="text/template">
-<div class="dui-dialog-box">
-  <div class="dui-mask"></div>
-  <div class="dui-dialog">
-    <div class="dialog-hd">提示</div>
-    <div class="dialog-bd">${body}</div>
-    <div class="dialog-ft">
-      {@if redirect}
-        <a href="${redirect.url}">${redirect.title}</a>
-      {@else}
-        <a>确定</a>
-      {@/if}
-    </div>
-  </div>
-</div>
-</script>
-<script id="goods-items-tpl" type="text/template">
-{@each items as item,idx}
-<div class="list-item goods-item" id="goods-item-${item.id}" data-item-id="${item.id}" data-item-idx="${idx}">
-  <dl>
-    <dt>${item.name}</dt>
-    <dd class="price">￥${item.price|realPrice}</dd>
-    {@if config.showStock}
-      <dd class="stock">库存：${item.stock}</dd>
-    {@/if}
-  </dl>
-  <div class="control">
-    <em class="delete hidden"><i>－</i></em><span></span><em class="add"><i>＋</i></em>
-  </div>
-</div>
-{@/each}
-<div class="list-item goods-amount">
-  总计：<span class="amount">￥0.00</span>
-</div>
-</script>
-        <div class="submit-loading hidden">
-          <div class="wrap"><div class="circle"></div><p>提交中</p></div>
-        </div>
     </div>
 </div>
 </body>

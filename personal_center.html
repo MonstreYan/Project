@@ -106,7 +106,7 @@
 				  </div>
 				  <div class="layui-col-md6">
 					<div class="layui-panel">
-					  <div style="padding: 50px 30px;"><h3>查询订单</h3></div>
+						<div style="padding: 50px 30px;"><a href="chaxun.html"><h3> 查询订单</h3></a></div>
 					</div>   
 				  </div>
 				  <div class="layui-col-md6">
@@ -116,7 +116,7 @@
 				  </div>
 				  <div class="layui-col-md6">
 					<div class="layui-panel">
-					  <div style="padding: 50px 30px;"><button type="button" style="padding: 50px 30px;">退出登录</button></div>
+					  <div style="padding: 50px 30px;"><a href="index.html"><h3>退出登录</h3></a></div>
 					</div>   
 				  </div>
 				</div> 
@@ -171,7 +171,7 @@
 <script type="text/javascript" src="js/static_plugin_wow.min.js"></script>
 <script type="text/javascript" src="js/static_plugin_jquery.SuperSlide.2.1.js"></script>
 <script type="text/javascript" src="js/static_plugin_zoompic.js"></script>
-<script src="js/layui.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/layui.js" charset="utf-8"></script>
 <script src="js/imagesloaded.pkgd.min.js"></script>
 <script src="js/redirect.js"></script>
 
@@ -199,16 +199,29 @@
 </script>
 
 	<script>
-		layui.use('element', function(){
-	  	var element = layui.element; //导航的hover效果、二级菜单等功能，需要依赖element模块
-	  
-	  	//监听导航点击
-	 	 element.on('nav(demo)', function(elem){
-		//console.log(elem)
-		layer.msg(elem.text());
-	  	});
-		});
-	</script>
+		  //触发事件
+		  var active = {
+			
+			offset: function(othis){
+			  var type = othis.data('type')
+			  ,text = othis.text();
+			  
+			  layer.open({
+				type: 1
+				,offset: type //具体配置参考：http://www.layui.com/doc/modules/layer.html#offset
+				,id: 'layerDemo'+type //防止重复弹出
+				,content: '<div style="padding: 20px 100px;">'+ text +'</div>'
+				,btn: '关闭全部'
+				,btnAlign: 'c' //按钮居中
+				,shade: 0 //不显示遮罩
+				,yes: function(){
+				  layer.closeAll();
+				}
+			  });
+			}
+		  };
+		</script>
+	
 </body>
 
 </html>
