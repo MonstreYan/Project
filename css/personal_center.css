@@ -31,7 +31,7 @@ body {
 
 #navs ul li {
   float: left;
-  width: 50%;
+  width: 100%;
   height: 60px;
   line-height: 60px;
   background-color: #f0f2f5;
@@ -54,7 +54,7 @@ body {
 }
 
 #navs ul li>a {
-  font-size: 18px;
+  font-size: 35px;
   color: #333;
 }
 
@@ -64,130 +64,10 @@ body {
 }
 
 #navs ul .select>a {
-  color: #FFB90F;
+  color: rgb(102,102,102);
   font-weight: 500;
 }
 
-#aboutlb {
-  padding: 30px 0 35px;
-  border-radius: 10px;
-}
-
-#aboutlb .lb-pic {
-  padding: 0 44px;
-}
-
-#aboutlb .lb-pic>img {
-  width: 1114px;
-  height: 200px;
-}
-
-#aboutlb .lb-current {
-  padding: 30px 44px 0;
-}
-
-#aboutlb .lb-current .lists {
-  display: inline-block;
-  width: 33%;
-  text-align: center;
-}
-
-#aboutlb .lb-current .lists .t-icon {
-  width: 43px;
-  height: 44px;
-  display: inline-block;
-  margin-right: 5px;
-  vertical-align: bottom;
-}
-
-#aboutlb .lb-current .lists .t-txt {
-  display: inline-block;
-  text-align: left;
-}
-
-#aboutlb .lb-current .lists .t-txt .year {
-  font-size: 20px;
-}
-
-#aboutlb .lb-current .lists .t-txt .setup {
-  font-size: 14px;
-  color: #85858c;
-}
-
-#aboutlb .lb-content {
-  font-size: 16px;
-  padding: 0 30px;
-}
-
-#aboutlb .lb-content>p {
-  margin: 0;
-  margin-top: 20px;
-}
-
-#event {
-  padding: 45px 0 60px;
-}
-
-#event h1 {
-  font-size: 50px;
-  text-align: center;
-  font-weight: normal;
-}
-
-#event h2 {
-  font-size: 20px;
-}
-
-#event .history dl {
-  padding: 0px 65px 0 100px;
-  height: auto;
-  overflow: hidden;
-}
-
-#event .history dl dt {
-  font-size: 26px;
-  font-weight: bold;
-  margin-left: -10px;
-}
-
-#event .history dl dd {
-  padding: 15px 0;
-}
-
-#event .history dl dd .months {
-  width: 40px;
-  display: inline-block;
-  text-align: right;
-  font-size: 14px;
-}
-
-#event .history dl dd .theme {
-  vertical-align: top;
-  width: 860px;
-  display: inline-block;
-  margin-left: 70px;
-  font-size: 16px;
-}
-
-#event .history .circles {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: #FFB90F;
-  display: inline-block;
-  position: relative;
-}
-
-#event .history .circles::after {
-  content: "";
-  display: block;
-  width: 2px;
-  height: 62px;
-  background-color: #e9eaec;
-  left: 4px;
-  top: 10px;
-  position: absolute;
-}
 
 .tag {
     width: 240px;
@@ -273,7 +153,6 @@ body {
     display: inline-block;
     width: 60px;
     height: 60px;
-    /* background: url(../../img/about/rightarrow.png) no-repeat; */
     vertical-align: middle;
     margin-right: 5px;
     position: absolute;
@@ -440,6 +319,10 @@ overflow: hidden;
   font-size: 14px;
   box-sizing: border-box;
 }
+/*
+.map {
+  padding: 22px 28px 30px 28px;
+}*/
 
 #dituContent {
   width: 1140px;
